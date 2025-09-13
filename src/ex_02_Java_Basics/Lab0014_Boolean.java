@@ -1,6 +1,6 @@
 package ex_02_Java_Basics;
 
-public class Lab0015_Boolean {
+public class Lab0014_Boolean {
 
     public static void main(String[] args) {
         boolean isJavaFun = true;

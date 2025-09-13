@@ -7,10 +7,10 @@
 
 package ex_02_Java_Basics;
 
-public class Lab0010_MultiMain {
+public class Lab009_MultiMain {
 
     public static void main(String[] args) {
-        System.out.println("Hello from Lab0010_MultiMain");
+        System.out.println("Hello from Lab009_MultiMain");
     }
 
     public static void main(String args) {
