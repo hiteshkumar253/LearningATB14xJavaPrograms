@@ -12,7 +12,7 @@ public class StarPattern11 {
                 }
             for(int k=1; k<=i; k++)
             {
-                if(i>=2 && k>=2)
+                if(i>=2 && k>1)
                 {
                     System.out.print("  ");
                 }

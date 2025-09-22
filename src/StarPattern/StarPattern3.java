@@ -10,7 +10,7 @@ public class StarPattern3 {
         {
             for(col=1; col<=row; col++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -19,7 +19,7 @@ public class StarPattern3 {
             {
                 for(col=4; col>=row; col--)
                 {
-                    System.out.print("*");
+                    System.out.print("* ");
                 }
                 System.out.println();
             }
