@@ -14,32 +14,30 @@ public class Grade {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number:");
-        int num;
-        while (true) {
-            if (scanner.hasNextInt()) {
-                num = scanner.nextInt();
-                if (num >= 0 && num <= 100) {
-                    break;
-                } else {
-                    System.out.println("Please enter a number between 0 and 100.");
-                }
-            }else {
-                System.out.println("Invalid number, please enter a valid number");
-                scanner.next(); // clear invalid input
-            }
-        }
+        System.out.println("Enter number :");
 
-        if (num >= 90 && num <= 100) {
-            System.out.println("Grade : A");
-        } else if (num >= 80) {
-            System.out.println("Grade : B");
-        } else if (num >= 70) {
-            System.out.println("Grade : C");
-        } else if (num >= 60) {
-            System.out.println("Grade : D");
-        } else {
-            System.out.println("Grade : E");
+        if(!scanner.hasNextInt())
+            System.out.println("Enter a valid integer value");
+        else {
+            int number = scanner.nextInt();
+            if (number < 0 || number > 100) {
+                System.out.println("Enter a valid number between 0-100");
+            }
+            else if (number >= 90) {
+                System.out.println("Grade A");
+            }
+            else if (number >= 80) {
+                System.out.println("Grade B");
+            }
+            else if (number >= 70) {
+                System.out.println("Grade C");
+            }
+            else if (number >= 60) {
+                System.out.println("Grade D");
+            }
+            else{
+                System.out.println("Grade F");
+            }
         }
     }
 }
