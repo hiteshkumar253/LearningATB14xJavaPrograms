@@ -35,7 +35,7 @@ public class Grade {
             else if (number >= 60) {
                 System.out.println("Grade D");
             }
-            else{
+            else {
                 System.out.println("Grade F");
             }
         }
