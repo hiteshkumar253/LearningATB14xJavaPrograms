@@ -6,19 +6,19 @@ package ex_Problem_Statement;
 public class FizzBuzz {
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 100; i++)
+        for (int num = 1; num <= 100; num++)
         {
-            if (i % 3 == 0 && i % 5 == 0) {
+            if (num % 3 == 0 && num % 5 == 0) {
                 System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) {
+            } else if (num % 3 == 0) {
                 System.out.println("Fizz");
             }
-            else if (i % 5 == 0)
+            else if (num % 5 == 0)
             {
                 System.out.println("Buzz");
             } else
             {
-                System.out.println(i);
+                System.out.println(num);
             }
         }
     }}
