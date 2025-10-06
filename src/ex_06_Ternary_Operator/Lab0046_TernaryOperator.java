@@ -4,7 +4,7 @@ public class Lab0046_TernaryOperator {
 
     public static void main(String [] args){
 
-        int age = 18;
+        int age = 29;
         String canIGotoGoa = age > 18 ? "Yes" : "No";
         System.out.println(canIGotoGoa);
 
@@ -14,6 +14,6 @@ public class Lab0046_TernaryOperator {
 
         int number = 5;
         String result = number>0 ? "+ve" : "-ve";
-        System.out.println(result);
+        System.out.println(age);
     }
 }
