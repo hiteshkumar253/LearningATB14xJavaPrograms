@@ -1,4 +1,4 @@
-package ex_016_Arrays;
+package ex_16_Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
