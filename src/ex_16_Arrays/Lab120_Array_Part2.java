@@ -1,6 +1,6 @@
 package ex_16_Arrays;
 
-public class LAb120_Array_Part2 {
+public class Lab120_Array_Part2 {
     public static void main(String[] args) {
 
 //        String[] names =  {"pramod","amit","lucky"};
